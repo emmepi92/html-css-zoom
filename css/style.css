@@ -22,14 +22,14 @@ nav.top {
     color: white;
     display: flex;    
     justify-content: flex-end;
-    margin-bottom: 20px;
-
+    margin: 10px 0 20px;
 }
 
 .info, .fa-expand-arrows-alt {
     padding: 5px 10px;
     background-color: rgba(255, 255, 255, 0.4);
     margin: 0 5px;
+    border-radius: 3px;
 }
 
  /* main  */

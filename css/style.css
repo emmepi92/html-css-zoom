@@ -15,6 +15,23 @@ body {
     flex-direction: column;
 }
 
+/* nav top  */
+nav.top {
+    background-color: black;
+    position: relative;
+    color: white;
+    display: flex;    
+    justify-content: flex-end;
+
+}
+
+.info, .fa-expand-arrows-alt {
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 5px;
+}
+
+ /* main  */
 div.main {
     background-color: black;
     flex-grow: 1;
@@ -28,14 +45,14 @@ div.pinco {
 }
 
 div.pinco img {
-    width: 170px;
-    padding: 5px;
+    width: 200px;
+    padding: 10px 3px;
 }
 
 div.abs {
     position: absolute;
-    bottom: 5px;
-    left: 0;    
+    bottom: 13px;
+    left: 3px;    
     color: white;
     background-color: rgba(51, 51, 51, 0.5);
     font-size: 0.8em;
@@ -43,7 +60,7 @@ div.abs {
 }
 
 /* nav bottom  */
-nav {
+nav.bottom {
     background-color: #333;
     display: flex;
     justify-content: space-between;

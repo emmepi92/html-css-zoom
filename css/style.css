@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: black;
 }
 
 .container {
@@ -17,11 +18,11 @@ body {
 
 /* nav top  */
 nav.top {
-    background-color: black;
     position: relative;
     color: white;
     display: flex;    
     justify-content: flex-end;
+    margin-bottom: 20px;
 
 }
 
@@ -33,7 +34,6 @@ nav.top {
 
  /* main  */
 div.main {
-    background-color: black;
     flex-grow: 1;
     display: flex;
     flex-wrap: wrap;
